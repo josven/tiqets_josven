@@ -49,10 +49,6 @@ Schema
 
 Simple schema on how this can be stored in a rel DB.
 
-.. raw:: html
-  :file: schema.svg
-
-
 .. code-block:: rst
 
     // Docs: https://dbml.dbdiagram.io/docs
@@ -72,6 +68,7 @@ Simple schema on how this can be stored in a rel DB.
       order_id integer [ref: > Orders.id]
     }
 
+.. image:: ./schema.png
 
 Licence
 -------
